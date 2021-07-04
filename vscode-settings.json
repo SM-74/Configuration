@@ -1,6 +1,6 @@
 {
     "code-runner.runInTerminal": true,
-    // editor.
+     // editor.
     "editor.fontFamily": "\"Cascadia Code\"",
     "editor.fontSize": 18,
     "editor.minimap.enabled": false,
