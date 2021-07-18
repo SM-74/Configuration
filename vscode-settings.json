@@ -116,7 +116,7 @@
     "vim.easymotion": true,
     "vim.incsearch": true,
     "vim.useSystemClipboard": true,
-    "vim.useCtrlKeys": true,
+    "vim.useCtrlKeys": false, //use the ctrl shortcuts for vscode
     "vim.hlsearch": true,
     "vim.insertModeKeyBindings": [
         {
