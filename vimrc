@@ -1,20 +1,20 @@
-"color scheme modded monokai
-colorscheme monokai
-
+colorscheme gruvbox
+"hi Normal guibg=black ctermbg=black "make gui color black
+syntax on 
 set number
-syntax on
 set tabstop=4
 set shiftwidth=4
+set nohlsearch
 set ai
 set so=7   "keeping the cursor in center //scrolloff at 7 lines from screen end
 set mouse=a
-set guifont=firacode 
-set ruler
+set guifont=monospace
+" set ruler
 set ignorecase
 set smartcase
 set incsearch
 set lazyredraw
-set showmatch
+"set showmatch
 set encoding=utf-8
 set noswapfile
 set smarttab
@@ -31,6 +31,16 @@ map <silent> <leader>w :w<cr>
 map <silent> <leader>q :q!<cr>
 inoremap jk <esc>
 map <silent> <f2> :!python3 % <cr>
+map <f4> :!g++ %  && ./a.out < input.txt<cr>
 map <f3> :!g++ %  && ./a.out<cr>
-vnoremap j gj 
-vnoremap k gk
+vnoremap <silent> j gj 
+vnoremap <silent> k gk
+" list all snippets for current filetype
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsListSnippets="<c-l>"
+
+"VIM PLUG
+call plug#begin('~/.config/nvim/plugged')
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
+call plug#end()
