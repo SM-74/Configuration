@@ -1,0 +1,20 @@
+{
+	"AStyleFormatter":
+	{
+		"autoformat_on_save": true
+	},
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
+	"font_face": "SF mono",
+	"font_size": 13,
+	"ignored_packages":
+	[
+		"Six",
+		"Vintage",
+		"Vintageous"
+	],
+	"neovintageous_build_version": 11100,
+	"theme": "Adaptive.sublime-theme",
+	"update_check": false,
+	"vintageous_i_escape_jk": true,
+	"vintageous_use_ctrl_keys": false
+}
