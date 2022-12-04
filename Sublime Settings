@@ -1,20 +1,37 @@
+// Settings in here override those in "Default/Preferences.sublime-settings",
+// and are overridden in turn by syntax-specific settings.
 {
-	"AStyleFormatter":
-	{
-		"autoformat_on_save": true
-	},
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
-	"font_face": "SF mono",
-	"font_size": 13,
+	"font_face": "Fira Code Retina",
+	"font_size": 15,
+	"theme": "Adaptive.sublime-theme",
 	"ignored_packages":
 	[
 		"Six",
 		"Vintage",
-		"Vintageous"
+		"Vintageous",
 	],
-	"neovintageous_build_version": 11100,
-	"theme": "Adaptive.sublime-theme",
+	"color_scheme": "Packages/Color Scheme - Legacy/IDLE.tmTheme",
+	// "neovintageous_build_version": 12700,
+	"show_panel_on_build": false,
+	/*"theme": "Adaptive.sublime-theme",*/
 	"update_check": false,
 	"vintageous_i_escape_jk": true,
-	"vintageous_use_ctrl_keys": false
+	"vintageous_ignore_keys": "ctrl+c",
+	"vintageous_ignore_keys": "ctrl+s",
+	"vintageous_handle_keys": {
+    "<C-f>": false,
+    "<C-s>": false,
+    // "<C-w>": false,
+    "<C-b>": false,
+    "<C-c>": false,
+    "<C-v>": false,
+	},
+	"neovinatageous_use_ctrl_keys": true,
+	"show_legacy_color_schemes": true,
+	"hardware_acceleration": true,
+	"AStyleFormatter":
+	{
+		"autoformat_on_save": true
+	},
+
 }
