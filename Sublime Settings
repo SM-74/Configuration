@@ -8,8 +8,6 @@
 	"font_size": 13,
 	"hardware_acceleration": true,
 	"line_padding_bottom": 1,
-	"neovintageous_build_version": 12700,
-	"show_legacy_color_schemes": true,
 	"show_panel_on_build": false,
 	"theme": "Adaptive.sublime-theme",
 	"update_check": false,
