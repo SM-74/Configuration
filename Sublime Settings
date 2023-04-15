@@ -1,16 +1,19 @@
 {
+	"update_check": false,
 	"AStyleFormatter":
 	{
-		"autoformat_on_save": true
+		"autoformat_on_save": true,
+		"options_default":{
+			"style":"google",
+		},
 	},
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
-	"font_face": "SF Mono",
-	"font_size": 13,
+	"font_face":"source code pro",
+	"font_size": 11,
 	"hardware_acceleration": true,
 	"line_padding_bottom": 1,
-	"show_panel_on_build": false,
+	"show_panel_on_build": true,
 	"theme": "Adaptive.sublime-theme",
-	"update_check": false,
 	"vintageous_handle_keys":
 	{
 		"<C-a>": false,
@@ -21,8 +24,10 @@
 		"<C-k>": false,
 		"<C-n>": false,
 		"<C-s>": false,
-		"<C-v>": false
+		"<C-v>": false,
+		"<C-p>": false,
+		"<C-P>": false,
 	},
 	"vintageous_i_escape_jk": true,
-	"vintageous_use_ctrl_keys": true
+	"vintageous_use_ctrl_keys": true,
 }
