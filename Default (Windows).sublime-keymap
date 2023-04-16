@@ -1,0 +1,26 @@
+[
+	    {
+        "keys": ["super+b"], 
+        "command": "build",
+        "context": [
+            { "key": "selector", "operator": "equal", "operand": "source.c++" }
+        ], 
+        "args": {
+            "build_system": "Packages/User/[C++].sublime-build",
+            "variant": "Build"
+        }
+    },
+
+    {
+        "keys": ["super+b"], 
+        "command": "build",
+        "context": [
+            { "key": "selector", "operator": "equal", "operand": "source.py" }
+        ], 
+        "args": {
+            "build_system": "Packages/User/[Python].sublime-build",
+            "variant": "Build"
+        }
+    },
+
+]
