@@ -1,5 +1,5 @@
 {
 	// "shell_cmd": "guake --show -e 'g++ $file && ./a.out'"
 	//"shell_cmd": "gnome-terminal --geometry=100x100-0+0 -- bash -c 'g++ $file && ./a.out;read $a'"
-	"shell_cmd": "g++ -std=c++17 $file 2>output.txt -o a.out && ./a.out < input.txt > output.txt"
+	"shell_cmd": "g++ -DLOCAL=1 -std=c++17 $file 2>output.txt -o a.out && ./a.out < input.txt > output.txt"
 }
